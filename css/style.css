@@ -604,7 +604,7 @@ color: #2c3e50;
 }
 
 /* Media Queries */
-@media(min-width:768px) {
+@media (min-width:768px) {
 .intro {
 	height: 100%;
 	padding: 0;
@@ -628,7 +628,11 @@ header .intro-text {
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
+#contact .social ul li#phone-show {
+	display: none;
 }
+}
+
 
 @media (max-width: 1024px) {
 #about img {
@@ -641,6 +645,18 @@ header .intro-text {
 .cat li.list-responsive {
 	margin-top: 40px;
 }
+#contact .social ul li#code-show {
+	display: none;
+}
+}
+
+@media (max-width: 1024px) and (min-width: 768px)  {
+	#contact .social ul li#code-show {
+		display: none;
+	}
+	#contact .social ul li#phone-show {
+		display: initial;
+	}
 }
 
 .img-center {

@@ -1,10 +1,19 @@
-// Scan to call
-$('.qrCode').mouseover(function() {
+// Click to call
+$('.fa-phone').mouseover(function() {
   $('.phone').css("visibility","visible");
 });
 
-$('.qrCode').mouseout(function() {
+$('.fa-phone').mouseout(function() {
   $('.phone').css("visibility","hidden");
+});
+
+// Scan to call
+$('.qrCode').mouseover(function() {
+  $('.code').css("visibility","visible");
+});
+
+$('.qrCode').mouseout(function() {
+  $('.code').css("visibility","hidden");
 });
 
 // CV
