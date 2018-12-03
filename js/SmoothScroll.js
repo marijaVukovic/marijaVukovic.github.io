@@ -83,7 +83,7 @@
     /**
      * Sets up scrolls array, determines if frames are involved.
      */
-    function init() {
+    function init(refresh) {
       
         if (!document.body) return;
     
