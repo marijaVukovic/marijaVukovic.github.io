@@ -83,10 +83,10 @@
     /**
      * Sets up scrolls array, determines if frames are involved.
      */
-    function init(refresh) {
+    function init() {
       
         if (!document.body) return;
-    
+        
         var body = document.body;
         var html = document.documentElement;
         var windowHeight = window.innerHeight; 
