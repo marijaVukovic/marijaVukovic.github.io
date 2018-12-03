@@ -87,7 +87,6 @@
       
         if (!document.body) return;
         
-        var refresh = null;
         var body = document.body;
         var html = document.documentElement;
         var windowHeight = window.innerHeight; 
