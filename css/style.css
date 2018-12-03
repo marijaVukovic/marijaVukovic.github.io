@@ -233,8 +233,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 	margin-left: 10px;
 }
 #about img {
-	float: right;
-	border-radius: 20px
+	/* float: right; */
+	border-radius: 20px;
 }
 #about p {
 	margin-top: 20px;
