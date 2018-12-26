@@ -569,6 +569,11 @@ color: #2c3e50;
 #contact .btn {
 	margin-top: 20px;
 }
+
+.btn-div a {
+	margin: 5px;
+}
+
 #contact .social {
 	margin-top: 20px;
 	margin-bottom: 20px;
