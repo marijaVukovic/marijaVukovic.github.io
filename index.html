@@ -1,208 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Marija Vukovic - Frontend Developer</title>
-<meta name="description" content="Personal portfolio">
-<meta name="author" content="Marija Vukovic">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marija Vukovic - Frontend Developer</title>
+  <meta name="description" content="Personal portfolio">
+  <meta name="author" content="Marija Vukovic">
 
-<!-- Favicons
+  <!-- Favicons
     ================================================== -->
-<link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/fav.png">
+  <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/fav.png">
 
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-<!-- Stylesheet
+  <!-- Stylesheet
     ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 
 </head>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<!-- Header -->
-<header id="header">
-  <div class="intro text-center">
-    <div class="overlay">
-      <div class="container">
-        <div class="row">
-          <div class="intro-text">
-            <img class="logo" style="display: none" src="img/backgroundlogo.png"/>
-            <img class="logo" src="img/logo.svg"/>
-            <h1>Marija Vukovic</h1>
-            <p>Frontend Developer</p>
-            <a href="#about" class="btn btn-default btn-lg page-scroll">Find Out More</a> </div>
+  <!-- Header -->
+  <header id="header">
+    <div class="intro text-center">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="intro-text">
+              <img class="logo" style="display: none" src="img/backgroundlogo.png" />
+              <img class="logo" src="img/logo.svg" />
+              <h1>Marija Vukovic</h1>
+              <p>Frontend Developer</p>
+              <a href="#about" class="btn btn-default btn-lg page-scroll">Find Out More</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </header>
+  <!-- Navigation -->
+  <div id="nav">
+    <nav class="navbar navbar-custom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i
+              class="fa fa-bars"></i> </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden"> <a href="#page-top"></a> </li>
+            <li> <a class="page-scroll" href="#page-top">Home</a> </li>
+            <li> <a class="page-scroll" href="#about">About</a> </li>
+            <li> <a class="page-scroll" href="#skills">Skills</a> </li>
+            <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+            <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
-</header>
-<!-- Navigation -->
-<div id="nav">
-  <nav class="navbar navbar-custom">
+  <!-- About Section -->
+  <div id="about">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+      <div class="section-title text-center center">
+        <h2>About Me</h2>
+        <hr>
       </div>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#page-top">Home</a> </li>
-          <li> <a class="page-scroll" href="#about">About</a> </li>
-          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
-          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-<!-- About Section -->
-<div id="about">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>About Me</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-md-6 img-center"> <img src="img/itbootcamp-photo.jpg" alt="profile-img"> </div>
-      <div class="col-xs-12 col-md-6">
-        <div class="about-text">
-          <p>I’m a detail-oriented web developer, ready to expand current knowledge and to gain new experience and skills. I have the most experience with WordPress but I’m highly interested in JavaScript and ReactJS, in which my current project is done and where I’m learning more about it.</p>
-          <p>My biggest accomplishment is taking ITBootcamp course and mastering HTML, CSS, JS, PHP from scratch and continuing to learn it. Now I’m seeking for an internship or junior position where I can prove myself and where I can learn and grow.</p>
-          <div class="btn-div">
-            <a href="#portfolio" class="btn btn-primary btn-lg page-scroll">My Portfolio</a> 
-            <a href="img/Vukovic Marija CV english.pdf" target="_blank" class="btn btn-primary btn-lg page-scroll">CV</a> 
-            <a href="img/PSSS recomendation letter.pdf" target="_blank" class="btn btn-primary btn-lg page-scroll">Recommendation Letter</a>
-            <a href="img/IT Bootcamp certificate.png" target="_blank" class="btn btn-primary btn-lg page-scroll">ITBootcamp Certificate</a>
-            <a href="img/Udemy-WordPress certificate.pdf" target="_blank" class="btn btn-primary btn-lg page-scroll">Udemy - WP Certificate</a>
+      <div class="row">
+        <div class="col-xs-12 col-md-6 img-center"> <img src="img/itbootcamp-photo.jpg" alt="profile image"> </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="about-text">
+            <p>I’m a detail-oriented and pixel perfect web developer, looking forward to expand my knowledge and to
+              gain new experience and skills. Currently, I'm working as freelance on ReactJS project.</p>
+            <p>A working environment where the members of the team have a strong sense of fellowship and a good work ethic is something that I strive to give and also to get. As not everything is about the work, I find it appealing to work with people who are kind, funny and like to crack a joke.  </p>
+            <div class="btn-div">
+              <a href="#portfolio" class="btn btn-primary btn-lg page-scroll">My Portfolio</a>
+              <a href="img/Vukovic Marija CV english.pdf" target="_blank" class="btn btn-primary btn-lg page-scroll">CV</a>
+              <a href="img/PSSS recomendation letter.pdf" target="_blank" class="btn btn-primary btn-lg page-scroll">Recommendation
+                Letter</a>
+              <a href="img/IT Bootcamp certificate.png" target="_blank" class="btn btn-primary btn-lg page-scroll">IT Bootcamp
+                Certificate</a>
+              <a href="img/Udemy-WordPress certificate.pdf" target="_blank" class="btn btn-primary btn-lg page-scroll">Udemy
+                - WP Certificate</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Skills Section -->
-<div id="skills" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Skills</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-        <h4>WordPress</h4>
+  <!-- Skills Section -->
+  <div id="skills" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Skills</h2>
+        <hr>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span> </span>
-        <h4>HTML5</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="60"> <span class="percent">60</span> </span>
-        <h4>CSS3</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="60"> <span class="percent">60</span> </span>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span>
+          </span>
+          <h4>WordPress</h4>
+        </div>
+        <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span>
+          </span>
+          <h4>HTML5</h4>
+        </div>
+        <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent">90</span>
+          </span>
+          <h4>CSS3</h4>
+        </div>
+        <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="60"> <span class="percent">60</span> </span>
         <h4>JavaScript</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="60"> <span class="percent">60</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="60"> <span class="percent">60</span>
+        </span>
         <h4>Photoshop</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="40"> <span class="percent">40</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="60"> <span class="percent">60</span>
+        </span>
         <h4>ReactJS</h4>
       </div>
     </div>
   </div>
-</div>
-<!-- Portfolio Section -->
-<div id="portfolio">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>Portfolio</h2>
-      <hr>
-    </div>
-    <div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".freelance">Freelance</a></li>
-            <li class="list-responsive"><a href="#" data-filter=".bootcamp">IT Bootcamp projects</a></li>
-          </ol>
-        </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 freelance">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="https://kivelitranslations.com/en/" target="_blank">
-              <div class="hover-text">
-                <h4>KiveliTranslations</h4>
-                <small>Website (WordPress)</small> </div>
-              <img src="img/portfolio/01-large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+  </div>
+  <!-- Portfolio Section -->
+  <div id="portfolio">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>Portfolio</h2>
+        <hr>
+      </div>
+      <div class="categories">
+        <ul class="cat">
+          <li>
+            <ol class="type">
+              <li><a href="#" data-filter="*" class="active">All</a></li>
+              <li><a href="#" data-filter=".freelance">Freelance</a></li>
+              <li class="list-responsive"><a href="#" data-filter=".bootcamp">IT Bootcamp projects</a></li>
+            </ol>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+      <div class="row">
+        <div class="portfolio-items">
+          <div class="col-sm-6 col-md-3 col-lg-3 freelance">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="https://kivelitranslations.com/en/" target="_blank">
+                  <div class="hover-text">
+                    <h4>KiveliTranslations</h4>
+                    <small>Website (WordPress)</small>
+                  </div>
+                  <img src="img/portfolio/01-large.jpg" class="img-responsive" alt="KiveliTranslations Image">
+                </a> </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 freelance">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="http://btravel.rs" target="_blank">
-              <div class="hover-text">
-                <h4>BTravelRS</h4>
-                <small>Website (WordPress)</small> </div>
-              <img src="img/portfolio/02-large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 freelance">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="http://btravel.rs" target="_blank">
+                  <div class="hover-text">
+                    <h4>BTravelRS</h4>
+                    <small>Website (WordPress)</small>
+                  </div>
+                  <img src="img/portfolio/02-large.jpg" class="img-responsive" alt="BTravelRS Image">
+                </a> </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 bootcamp">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="http://socnet.byethost4.com" target="_blank">
-              <div class="hover-text">
-                <h4>Social Network</h4>
-                <small>Team Project (HTML, CSS, JS, PHP, MySQL)</small> </div>
-              <img src="img/portfolio/03-large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 bootcamp">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="http://socnet.byethost4.com" target="_blank">
+                  <div class="hover-text">
+                    <h4>Social Network</h4>
+                    <small>Team Project (HTML, CSS, JS, PHP, MySQL)</small>
+                  </div>
+                  <img src="img/portfolio/03-large.jpg" class="img-responsive" alt="Social Network Image">
+                </a> </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 bootcamp">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="https://itbcg2-mv.000webhostapp.com" target="_blank">
-              <div class="hover-text">
-                <h4>Homework</h4>
-                <small>Project (HTML, CSS, JS, PHP)</small> </div>
-              <img src="img/portfolio/04-large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 bootcamp">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="https://itbcg2-mv.000webhostapp.com" target="_blank">
+                  <div class="hover-text">
+                    <h4>Homework</h4>
+                    <small>Project (HTML, CSS, JS, PHP)</small>
+                  </div>
+                  <img src="img/portfolio/04-large.jpg" class="img-responsive" alt="Homework Image">
+                </a> </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 bootcamp">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="https://itbc2-mv-phonesale.000webhostapp.com" target="_blank">
-              <div class="hover-text">
-                <h4>Woocomerce WordPress</h4>
-                <small>Project (WordPress)</small> </div>
-              <img src="img/portfolio/05-large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 bootcamp">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="https://itbc2-mv-phonesale.000webhostapp.com" target="_blank">
+                  <div class="hover-text">
+                    <h4>Woocomerce WordPress</h4>
+                    <small>Project (WordPress)</small>
+                  </div>
+                  <img src="img/portfolio/05-large.jpg" class="img-responsive" alt="Woocomerce WordPress Image">
+                </a> </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="overlay no-padding">
-    <div class="container">
+  <!-- Contact Section -->
+  <div id="contact" class="text-center">
+    <div class="overlay no-padding">
+      <div class="container">
         <div class="social">
-          <ul>  
+          <ul>
             <li id="phone-show">
-                <p class="phone">Click to call</p>
+              <p class="phone">Click to call</p>
               <a href="tel:0038162255106"><i class="fa fa-phone"></i></a>
             </li>
             <li id="code-show">
               <p class="code">Scan to call</p>
-              <img class="qrCode" src="img/qrCode.png"/>
+              <img class="qrCode" src="img/qrCode.png" />
             </li>
             <li>
               <p class="mail">Send a mail</p>
@@ -221,21 +244,22 @@
       </div>
     </div>
   </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="fnav">
-      <p>Copyright &copy; 2018 Marija Vukovic</p>
+  </div>
+  <div id="footer">
+    <div class="container text-center">
+      <div class="fnav">
+        <p>Copyright &copy; 2018 Marija Vukovic</p>
+      </div>
     </div>
   </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/waypoints.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="js/phoneShow.js"></script>
+  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="js/easypiechart.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+  <script type="text/javascript" src="js/waypoints.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/phoneShow.js"></script>
 </body>
+
 </html>
